@@ -100,3 +100,113 @@ arr[1] : 주소값 ->arr[1][0] -> 값
 이해할수 있으면 코딩/프로그래밍에 포커스
 
 휴게실에서 수업들을 수 있음.
+
+데이터 안에 데이터가 결합되어 있으면 편함
+
+객체 / 리터럴
+다른 데이터 형을 포함하는 배열은 은 없음
+
+클래스
+다른 데이터 형을 포함하는 데이터 세트
+
+데이터 -> 여러 데이터가 뭉쳐서 하나의 의미를 나타냄
+
+새로운 타입이 필요->문자도 들어가고 숫자도 들어가는
+C: 구조체
+
+pulbic class Person{
+    String name;
+    String phone;
+    int age;
+}
+자바에서는 데이터를 저장하기 위해서 클래스를 만들어서 인스턴스를 생성
+
+클래스 : 사용자가 정의하는 데이터 타입
+
+System.out.println(arr[0].name);
+System.out.println(arr[1].name);
+System.out.println(arr[2].name);
+
+js
+const person = {name:"홍길동", phone:"111", age: 16} //객체 리터럴
+
+typescript에는 class가 있음
+
+//최고 점수를 받은 사람의 이름과 성적 출력
+//구조화된 데이터
+
+js는 키와 값만 있으면 됨
+java는 클래스가 필요함
+
+인삼밭에 고구마
+
+jsonviewer.stack.hu
+크롤링,
+
+json:  java script object notation
+
+xml
+json
+
+
+js for in
+
+js object literal
+
+js for of
+
+Math.pow(2)
+Math.sqrt
+
+영화 데이터
+키스씬 / 액션씬
+
+클래스를 만드는 목적을 분명히 알아야 함
+
+js sort
+
+필요할 때마다 찾아서 공부해야함
+특히 자바
+
+자바
+람다
+정렬 : 버블정렬, 삽입 정렬,
+
+java
+int[] arr = {1,234,24,4,2,5,6,7,}
+Arrays.sort(arr)
+
+lamda 40에서 가까운 순서대로 정렬
+int target = 40;
+
+Array.sort(arr, (a, b) ->{ //수행해야 할것을 바로 옆에 정의
+int gap1 = Math.abs(target-a)
+int gap2 = Math.abs(target-b)
+
+return gap1 > gap2 ? 1:-1 //리턴이 없어도 동작 함
+};
+System.out.println(Arrays.toString(arr) )
+
+
+
+java arrays lomda
+
+람다식
+자바스크립트에서 하던 것을 자바가 배낌
+로직을 같이 전달 함
+
+깃허브에 코드 참고 하여 코드 만들기
+
+
+1. 영화 데이터를 배열로 만듬
+movies [{} {} {}{}{}{}]
+
+target  = { 액션수, 키스수}
+
+movies.sort() // 타겟과 가장 유사한 영화가 나옴
+
+3개의 영화 조사 ->가까운 데이타 A, M, A 판단
+
+이영화가 액션인지 멜로인지 판단
+
+http://localhost:5555/w1/index.html?_ijt=m091m4cnah8lfeh3er6i68mj8o&_ij_reload=RELOAD_ON_SAVE
